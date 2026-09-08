@@ -48,10 +48,13 @@ islemYapBtn.addEventListener("click", function(){
             else{
                 alert("İşleminiz seçmediniz veya değer girmediniz. Lütfen bu alanları kontrol ediniz.");
             }
-        }
+
+            //Konsola da aynı bilgileri yazdırıyoruz
+            console.log("Girmiş Olduğunuz Sayılar: " + s1 + ", " + s2);
+            console.log("Seçmiş Olduğunuz İşlem: " + dortIslem);
+            console.log("İşleminizin Sonucu: " + sonuc);
+
             //Burada kullanıcının girdiği sayılar, seçtiği işlem ve işlemin sonucunu ekrana yazdırıyoruz.
-            document.getElementById("sonuc").innerHTML = "Girmiş Olduğunuz Sayılar : " + s1 + "<br>" + s2 + "<br>" + "<br> Seçmiş Olduğunuz İşlem : " + dortIslem + "<br> İşleminizin Sonucu : " + sonuc;
+            document.getElementById("sonuc").innerHTML = "Girmiş Olduğunuz Sayılar : " + s1 + ", " + s2 + "<br> Seçmiş Olduğunuz İşlem : " + dortIslem + "<br> İşleminizin Sonucu : " + sonuc;
+    }
 })
-
-//Test sonucu proje istenildiği gibi çalışıyor.
-
