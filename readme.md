@@ -33,7 +33,7 @@
 
 ## English
 
-## Video
+## Demo Video
 
 [Watch the project demo video](assets/js-dort-islem.mp4)
 
