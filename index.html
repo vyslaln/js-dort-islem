@@ -16,16 +16,24 @@
 
     <!-- İşlem Seçim Menüsü  -->
     <label for="dortislem">Yapmak istediğiniz işlemi seçiniz : </label>
-    <select name="dortislem" id="dortislem"> 
+    <select name="dortislem" id="dortislem">
+        <option value="seciniz">Seçiminizi Yapınız.</option> 
         <option value="toplama">Toplama</option>
         <option value="cikarma">Çıkarma</option>
         <option value="carpma">Çarpma</option>
         <option value="bolme">Bölme</option>
+    </select>
+    <br><br>
+
+    <!-- Girilen Sayıların Javascript ile işlenerek, işlemin yapılması -->
+    <button id="islemYapBtn">
+        İşlemi Yap
+    </button>
+    <br><br><br>
+    <!-- Burada Sonuç Kısmı Olacak -->
+    <span id="sonuc">Sonuç : </span>
 
     <!-- Harici JavaScript Dosyasının Tanımlanması -->
-    </select>
-    <script src="js-iki-sayinin-toplami.js">
-
-    </script>
+    <script src="js-iki-sayinin-toplami.js" defer></script>
 </body>
 </html>
