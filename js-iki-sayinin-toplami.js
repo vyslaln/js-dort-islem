@@ -53,3 +53,5 @@ islemYapBtn.addEventListener("click", function(){
             document.getElementById("sonuc").innerHTML = "Girmiş Olduğunuz Sayılar : " + s1 + "<br>" + s2 + "<br>" + "<br> Seçmiş Olduğunuz İşlem : " + dortIslem + "<br> İşleminizin Sonucu : " + sonuc;
 })
 
+//TEST
+
