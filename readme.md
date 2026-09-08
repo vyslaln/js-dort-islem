@@ -2,7 +2,7 @@
 
 ## Video
 
-[Proje tanıtım videosunu izle](assets/js-dort-islem.mp4)
+<video src="https://github.com/user-attachments/assets/96f03dec-d147-45e6-ba14-368d2b564484" controls muted width="600"></video>
 
 ## Bu projede neler öğrendim?
 
@@ -35,7 +35,7 @@
 
 ## Demo Video
 
-[Watch the project demo video](assets/js-dort-islem.mp4)
+<video src="https://github.com/user-attachments/assets/96f03dec-d147-45e6-ba14-368d2b564484" controls muted width="600"></video>
 
 ## What did I learn in this project?
 
